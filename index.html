@@ -1,1 +1,37 @@
 <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Letter of Encouragement</title>
+  <link rel="stylesheet" href="oneLanding.css"/>
+</head>
+
+<body>
+  <div class="envelope-wrapper">
+    <div class="envelope" id="envelope">
+      <div class="flap"></div>
+      <div class="letter-preview">Click to open 💌</div>
+    </div>
+  </div>
+
+  <div class="letter-container hidden" id="letterContainer">
+    <div class="letter">
+      <p id="letterText"></p>
+    </div>
+  </div>
+
+   <div class="reply-section hidden" id="replySection">
+        <h3>Write a reply 💬</h3>
+        <form id="replyForm">
+            <textarea id="replyInput" placeholder="Write your message here..." required></textarea>
+            <br />
+            <button type="submit">Send Reply</button>
+        </form>
+        <p id="confirmationMsg" class="hidden">✅ Thank you for your reply!</p>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
