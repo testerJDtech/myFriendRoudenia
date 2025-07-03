@@ -97,3 +97,33 @@ button[type="submit"]:hover {
 .hidden {
   display: none;
 }
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUpBounce {
+  0% {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(-10px);
+    opacity: 1;
+  }
+  80% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.slide-up {
+  animation: slideUpBounce 1s ease-out forwards;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease forwards;
+}
