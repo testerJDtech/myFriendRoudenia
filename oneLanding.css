@@ -70,16 +70,6 @@ body {
   text-align: center;
 }
 
-textarea {
-  width: 90%;
-  height: 80px;
-  padding: 10px;
-  font-family: inherit;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  resize: none;
-}
-
 button[type="submit"] {
   margin-top: 10px;
   padding: 10px 20px;
@@ -90,7 +80,7 @@ button[type="submit"] {
   cursor: pointer;
 }
 
-button[type="submit"]:hover {
+button[type="button"]:hover {
   background-color: #ff85c1;
 }
 
